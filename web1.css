@@ -1,0 +1,46 @@
+/* ... (kode CSS sebelumnya) ... */
+
+/* Tambahan CSS untuk halaman kontak */
+.kontak-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.kontak-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.kontak-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tambahan CSS untuk halaman berita */
+.berita-list {
+    list-style: none;
+}
+
+.berita-item {
+    margin-bottom: 20px;
+}
+
+.berita-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.berita-item a:hover {
+    text-decoration: underline;
+}
